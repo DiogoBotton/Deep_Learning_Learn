@@ -23,7 +23,7 @@ O *Perceptron* é uma arquitetura dividida em **5 partes**:
 - Temos também o **b** (bias ou viés) que também é um tipo de peso. Irá adicionar um novo víes ao cálculo do aprendizado do modelo.
     - O viés é muito importante para permitir que o modelo converja na direção ao menor número de perda.
 
-![perceptron](/Redes_Neurais_Convolucionais/readme-images/perceptron.png)
+![perceptron](Redes_Neurais_Convolucionais/readme_images/perceptron.png)
 
 **Soma:**
 - Na seção *Soma*, é realizado a **soma ponderada**.
@@ -45,7 +45,7 @@ Todo o aprendizado ocorre nas camadas de soma e ativação.
 
 A função Soma no *Perceptron* tem muita ligação com a formação da reta de separação, ela segue um modelo matemático linear que se expressa da seguinte forma:
 
-![soma](/Redes_Neurais_Convolucionais/readme-images/soma.png)
+![soma](Redes_Neurais_Convolucionais/readme-images/soma.png)
 
 O nome dessa técnica se chama *soma ponderada* (explicada anteriormente). Porém, como temos o valor de bias (viés), também adicionamos o valor de viés nessa equação.
 
@@ -55,13 +55,13 @@ Após a saída, é verificado se os valores dos pessos correspondem ou não corr
 
 **Como é feito essa verificação?**
 
-![reta](/Redes_Neurais_Convolucionais/readme-images/reta.png)
+![reta](Redes_Neurais_Convolucionais/readme-images/reta.png)
 
 Os valores de peso, no caso, *w1* e *w2* e *b* (bies/viés) são alterados constantemente durante o aprendizado.
 
 Digamos que iniciamos os valores de pesos e viéses de forma aleatória e a reta será centrada na origem:
 
-![aleatorio](/Redes_Neurais_Convolucionais/readme-images/aleatorio.png)
+![aleatorio](Redes_Neurais_Convolucionais/readme-images/aleatorio.png)
 
 Porém, com estes valores a nossa reta de separação ainda não é precisa e não é possível separar os dois tipos de flores que temos no exemplo.
 
@@ -69,8 +69,8 @@ O modelo de perceptron irá "entender" esta situação e irá **atualizar os pes
 
 Basicamente, a alteração dos valores de *w1* e *w2* irão apenas rotacionar a reta. Porém, para tirar a reta da origem, precisamos **adicionar um víés (ou bias)**, ao final da equação *soma* como uma constante:
 
-![soma_vies](/Redes_Neurais_Convolucionais/readme-images/soma_vies.png)
+![soma_vies](Redes_Neurais_Convolucionais/readme-images/soma_vies.png)
 
 Como resultado, ao otimizar os valores de pesos e bias (viés), teremos uma reta capaz de dividir o plano de dados por suas classes.
 
-![reta_ajustada](/Redes_Neurais_Convolucionais/readme-images/reta_ajustada.png)
+![reta_ajustada](Redes_Neurais_Convolucionais/readme-images/reta_ajustada.png)
