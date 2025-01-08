@@ -398,3 +398,5 @@ FodyWeavers.xsd
 *.sln.iml
 
 Redes_Neurais_Convolucionais/Videiras/best_conv_model.keras
+Redes_Neurais_Convolucionais/Videiras/best_conv_model_inceptionv3.keras
+Redes_Neurais_Convolucionais/Videiras/best_conv_model_inceptionv3_quantized.keras
