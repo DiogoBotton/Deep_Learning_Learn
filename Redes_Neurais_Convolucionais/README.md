@@ -74,3 +74,22 @@ Basicamente, a alteração dos valores de *w1* e *w2* irão apenas rotacionar a 
 Como resultado, ao otimizar os valores de pesos e bias (viés), teremos uma reta capaz de dividir o plano de dados por suas classes.
 
 ![reta_ajustada](readme_images/reta_ajustada.png)
+
+## Redes Neurais Convolucionais
+
+As **redes neurais convolucionais** não irá usar todas as entradas da imagem (no caso, os pixels). Ao invés disso, a partir de um processo chamado de *convolução* será extraído as características mais importantes das imagens (como bordas, texturas, formas, etc).
+
+Basicamente, temos 4 etapas antes de criar uma rede neural densa (que seria a camada de saída da rede neural, para classificar a imagem):
+
+- Operador de convolução
+- Pooling
+- Flattening
+- Rede neural densa
+
+**Operador de convoluçao:**
+
+- Convolução é o processo de adicionar cada elemento da imagem para seus vizinhos, ponderado por um kernel.
+- A imagem é uma matriz e o kernel é outra matriz.
+- A imagem será multiplicada pelo kernel (multiplicação de matrizes), onde é multiplicado cada pixel pela entrada correspondente do kernel e me seguida, é realizado a soma.
+
+De forma geral, o processo de convolução realiza cálculos matemáticos, como multiplicação e soma de matrizes.
