@@ -50,6 +50,6 @@ Granularidade -> Nível de detalhe.
 
 As redes neurais artificiais (tradicionais) apresentam limitações para lidar com sequências, em grande parte, essas limitações estão associadas com a **incapacidade de guardar memória** das instâncias anteriores.
 
-![redes neurais recorrentes vs redes neurais tradicionais](image-1.png)
+![redes neurais recorrentes vs redes neurais tradicionais](readme_imgs/image-1.png)
 
 Além de retornar uma saída, devolve a saída como entrada da próxima etapa. Ou seja, tem uma arquitetura onde permite que a saída de uma camada seja retroalimentada como entrada para a próxima camada, criando uma conexão cíclica (loop) apresentado na imagem acima. Isso permite que a rede mantenha informações sobre entradas passadas e use esse contexto para prever ou classificar dados futuros.
