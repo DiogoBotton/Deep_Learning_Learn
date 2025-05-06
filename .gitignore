@@ -400,3 +400,5 @@ FodyWeavers.xsd
 Redes_Neurais_Convolucionais/Videiras/best_conv_model.keras
 Redes_Neurais_Convolucionais/Videiras/best_conv_model_inceptionv3.keras
 Redes_Neurais_Convolucionais/Videiras/best_conv_model_inceptionv3_quantized.keras
+Decodificacao_de_Audio/dataset_commands-002.gz
+Decodificacao_de_Audio/dataset
